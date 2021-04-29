@@ -11,18 +11,18 @@ Ride Me is a small ride-hailing service. This connects drivers with passengers, 
 
 ## Implementation Status
 
-[x] Conection to Wompi
-[x] API endpoints
-[x] Schema
-[x] Docker ready
-[x] Migrations via Rake
-[] API Authentication (out of scope)
-[] Handling errors (internal services and Wompi services)
-[] Validations
-[] Unit test
-[] Configuration files per enviroment
-[] Production ready database
-[] Heroku ready
+- [x] Conection to Wompi
+- [x] API endpoints
+- [x] Schema
+- [x] Docker ready
+- [x] Migrations via Rake
+- [] API Authentication (out of scope)
+- [] Handling errors (internal services and Wompi services)
+- [] Validations
+- [] Unit test
+- [] Configuration files per enviroment
+- [] Production ready database
+- [] Heroku ready
 
 ## Usage
 

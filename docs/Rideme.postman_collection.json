@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "a92f417a-c539-4ec4-bc4f-9222c7d3b61c",
+		"name": "Rideme",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create a ride",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"rider_id\": 1,\n    \"lat\": 4.299,\n    \"lng\": -74.227\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9292/api/v1/rides",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9292",
+					"path": [
+						"api",
+						"v1",
+						"rides"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Finish a ride",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lat\": 4.399,\n    \"lng\": -74.427\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9292/api/v1/rides/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9292",
+					"path": [
+						"api",
+						"v1",
+						"rides",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrive a ride",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lat\": 4.399,\n    \"lng\": -74.427\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9292/api/v1/rides/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9292",
+					"path": [
+						"api",
+						"v1",
+						"rides",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a payment source",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"rider_id\": 1,\n    \"acceptance_token\": \"qwertyuiop123456789qwerty\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9292/api/v1/payments/method",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9292",
+					"path": [
+						"api",
+						"v1",
+						"payments",
+						"method"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

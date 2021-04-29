@@ -1,3 +1,2 @@
 development:
-  adapter: sqlite3
-  database: db/development.db
+  url: 'sqlite://db/development.db'

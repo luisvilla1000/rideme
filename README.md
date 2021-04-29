@@ -16,13 +16,13 @@ Ride Me is a small ride-hailing service. This connects drivers with passengers, 
 - [x] Schema
 - [x] Docker ready
 - [x] Migrations via Rake
-- [] API Authentication (out of scope)
-- [] Handling errors (internal services and Wompi services)
-- [] Validations
-- [] Unit test
-- [] Configuration files per enviroment
-- [] Production ready database
-- [] Heroku ready
+- [ ] API Authentication (out of scope)
+- [ ] Handling errors (internal services and Wompi services)
+- [ ] Validations
+- [ ] Unit test
+- [ ] Configuration files per enviroment
+- [ ] Production ready database
+- [ ] Heroku ready
 
 ## Usage
 
